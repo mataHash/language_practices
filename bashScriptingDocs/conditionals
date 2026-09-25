@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+a=2;
+b=2;
+
+if [[ $a == $b ]]; then
+	echo 'a and b are the same';
+fi
+
+c=2;
+d=3;
+
+if [[ $c != $d ]]; then
+	echo 'c and d are NOT the same';
+fi
+
+if [[ -f file.txt ]]; then
+	echo 'file.txt exist and is a file'
+fi

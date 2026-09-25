@@ -1,0 +1,10 @@
+[project]
+name = "textual-apps"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "awkexercises>=1.7.0",
+    "awktutorial>=1.6.0",
+]

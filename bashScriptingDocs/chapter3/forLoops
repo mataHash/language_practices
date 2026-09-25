@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+echo for loops in bash;
+
+for name in foo bar bat baz; do
+	echo "name is $name";
+done
+
+for thing in {a..f}; do
+	echo "thing is $thing";
+done
+
+for stuff in {1..5}; do 
+	echo "thing is $thing";
+done
+
+max=5
+
+for (( i = 0; i < $max; i++)); do
+	echo "thing is $i";
+done

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+read -r foo;
+
+echo "You said $foo";
+
+
+
+while read -r line; do
+	true;
+done;

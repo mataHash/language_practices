@@ -1,0 +1,6 @@
+zbol=bool(0)
+sbol=bool("")
+hbol=bool ("Hola")
+print(zbol)
+print(sbol)
+print(hbol)
