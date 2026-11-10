@@ -191,4 +191,4 @@ class Program
         Console.WriteLine($"Aprobados: {aprobados}");
         Console.WriteLine($"Reprobados: {reprobados}");
     }
-}
+
